@@ -14,7 +14,7 @@ app.set("views", templatePath); // to change the name of views Directory
 // route for view engine
 app.get("", (req, res) => {
   res.render("index", {
-    Name: "Riya raj",
+    Name: "Raja raj",
   });
 });
 
